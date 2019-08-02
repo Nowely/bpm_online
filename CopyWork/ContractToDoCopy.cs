@@ -23,48 +23,48 @@ namespace CopyWork
             var query = new Select(_userConnection)
                     .Column("NWName")
                     .Column("NWNotes")
+                    .Column("NWDateOfPublication")
+                    .Column("NWAuthorId")
+                    .Column("NWisSale")
+                    .Column("NWTirage")
                 .From("NWLibrary")
                 .Where("Id")
                     .IsEqual(Column.Parameter(bookId)) as Select;
+
+            var insel = new InsertSelect(_userConnection)
+                .Into("NWLibrary")
+                .Set("NWName")
+                .Set("NWNotes")
+                .Set("NWDateOfPublication")
+                .Set("NWAuthorId")
+                .Set("NWisSale")
+                .Set("NWTirage")
+                .FromSelect(query);
+            insel.Execute();
             var bookName = query.ExecuteScalar<string>();
-            query = new Select(_userConnection)
-                    .Column("NWNotes")
-                .From("NWLibrary")
-                .Where("Id")
-                    .IsEqual(Column.Parameter(bookId)) as Select;
-            var noteName = query.ExecuteScalar<string>();
 
-            var pageInsert = new Insert(_userConnection)
-                   .Into("NWLibrary")
-                .Set("NWName", Column.Const(bookName))
-                .Set("NWNotes", Column.Const(noteName));
-            pageInsert.Execute();
-            #endregion
-
-            #region Запрашиваем данные детальки книги
-            var query2 = new Select(_userConnection)
-                    .Column("NWAuthorToBookId")
-                .From("NWAuthorAndBook")
-                .Where("NWBookToAuthorId")
-                    .IsEqual(Column.Parameter(bookId)) as Select;
-            var authorToBook = query2.ExecuteScalar<Guid>();
-            #endregion
-
-            #region Запрашиваем ID новой книги
+            //Запрашиваем ID новой книги
             query = new Select(_userConnection)
                     .Column("Id")
                 .From("NWLibrary")
                 .Where("Id")
                     .IsNotEqual(Column.Parameter(bookId))
                     .And("NWName").IsEqual(Column.Const(bookName)) as Select;
-            var idNewBook = query.ExecuteScalar<Guid>();
+            var idNewBook = query.ExecuteScalar<string>();
 
-            var detailInsert = new Insert(_userConnection)
-                   .Into("NWAuthorAndBook")
-                .Set("NWBookToAuthorId", Column.Const(idNewBook))
-                .Set("NWAuthorToBookId", Column.Const(authorToBook));
-            detailInsert.Execute();
-            #endregion
+            //Данные детальки
+            var query2 = new Select(_userConnection)
+                    .Column(Column.Const(idNewBook))
+                    .Column("NWAuthorToBookId")
+                .From("NWAuthorAndBook")
+                .Where("NWBookToAuthorId")
+                    .IsEqual(Column.Parameter(bookId)) as Select;
+
+            var insel1 = new InsertSelect(_userConnection)
+                .Into("NWAuthorAndBook")
+                .Set("NWBookToAuthorId","NWAuthorToBookId")
+                .FromSelect(query2);
+            insel1.Execute();
         }
         public void DoCopyESM(Guid bookId)
         {
@@ -74,16 +74,6 @@ namespace CopyWork
             {
                 { "Id", bookId }
             });
-
-
-            
-            //var opportunityManager1 = _userConnection.EntitySchemaManager.GetInstanceByName("NWAuthorAndBook");
-            //var detailsData = opportunityManager1.CreateEntity(_userConnection);
-            //detailsData.FetchFromDB(new Dictionary<string, object>()
-            //{
-            //    { "NWBookToAuthor", bookId }
-            //});
-            //var a = detailsData.GetColumnValueNames();
 
             if (exist)
             {
