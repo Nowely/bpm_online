@@ -1,0 +1,7 @@
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\bin\Debug\OData.exe.config
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\bin\Debug\OData.exe
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\bin\Debug\OData.pdb
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\obj\Debug\OData.csprojAssemblyReference.cache
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\obj\Debug\OData.csproj.CoreCompileInputs.cache
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\obj\Debug\OData.exe
+C:\Users\prog\source\repos\ProjectsForBpmOnline\OData\obj\Debug\OData.pdb
