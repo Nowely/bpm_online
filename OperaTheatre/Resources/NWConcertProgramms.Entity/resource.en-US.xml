@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Концертные программы" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Ответственный" />
+			<Item Name="Columns.NWCode.Caption" Value="Код" />
+			<Item Name="Columns.NWCollective.Caption" Value="Коллектив" />
+			<Item Name="Columns.NWComment.Caption" Value="Комментарий" />
+			<Item Name="Columns.NWDescription.Caption" Value="Заметки" />
+			<Item Name="Columns.NWisActive.Caption" Value="Аквтивна" />
+			<Item Name="Columns.NWName.Caption" Value="Название" />
+			<Item Name="Columns.NWPeriodicity.Caption" Value="Периодичность" />
+		</Items>
+	</Group>
+</Resources>

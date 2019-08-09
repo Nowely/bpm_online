@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c4180599-d07f-4496-b839-3fed749eb3b3",
+    "Name": "NWPerformance",
+    "ModifiedOnUtc": "\/Date(1565170100000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Выступление (деталь)",
+    "DependsOn": []
+  }
+}

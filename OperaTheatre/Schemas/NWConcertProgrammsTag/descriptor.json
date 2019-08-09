@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7a3283e-00b1-4856-b8f9-ac0c14a81e0e",
+    "Name": "NWConcertProgrammsTag",
+    "ModifiedOnUtc": "\/Date(1565162429000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Концертные программы",
+    "DependsOn": []
+  }
+}

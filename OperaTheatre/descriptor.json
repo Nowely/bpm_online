@@ -1,0 +1,21 @@
+﻿{
+  "Descriptor": {
+    "UId": "60708b38-cbeb-467b-add1-263178fa8a01",
+    "Name": "OperaTheatre",
+    "ModifiedOnUtc": "\/Date(1565161892000)\/",
+    "Maintainer": "Ruslan",
+    "Description": "Пакет для автоматизации работы оперного театра",
+    "DependsOn": [
+      {
+        "UId": "0ece3a34-413f-415b-919b-7b29bb31701f",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_Obsolete"
+      },
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}

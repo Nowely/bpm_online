@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "131b868c-fcbc-447f-aaf3-b051e56c57b2"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 22
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "79770671-cde2-4c0f-9078-a4ff68703def",
+          "DisplayValue": "Общее"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "1874a9bb-5398-4e07-bdaa-1401d1e8e399",
+          "DisplayValue": "Концертные программы"
+        }
+      ]
+    }
+  ]
+}

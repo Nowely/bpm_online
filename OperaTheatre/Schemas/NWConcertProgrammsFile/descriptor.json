@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "43bed32f-2a70-400a-8f8f-c1de1581e755",
+    "Name": "NWConcertProgrammsFile",
+    "ModifiedOnUtc": "\/Date(1565162420000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Концертные программы",
+    "DependsOn": []
+  }
+}

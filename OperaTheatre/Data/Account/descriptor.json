@@ -1,0 +1,224 @@
+﻿{
+  "Descriptor": {
+    "UId": "ae293792-e4fb-4158-ade7-3c81d5e24724",
+    "Name": "Account",
+    "ModifiedOnUtc": "\/Date(1565337620000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+      "Name": "Account"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "165072a8-b718-4490-ab89-223f30390d81",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "PrimaryContact",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "c8abae85-5c2e-45bc-826b-fd53a88660c8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Logo",
+        "DataTypeValueUId": "fa6e6e49-b996-475e-a77e-73904e4c5a88"
+      },
+      {
+        "ColumnUId": "fa768c13-2032-4055-9f11-4f0607f993b3",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "PriceList",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "7c85a229-8cfa-4c29-8ab9-9463560a92ec",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Owner",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "3fe38c61-ff55-4012-b28d-67e59d5b1986",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Zip",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "d60a9c06-1170-4cd6-9dc1-c972bc451533",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Type",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a1d2ad98-d068-4fc2-8454-8a7c944cd0a1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Web",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9dbe8164-58b4-42c9-a75e-7c568d430d50",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Phone",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a006d013-4ef6-47a1-a000-d25346fcb392",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AnnualRevenue",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "f25a5087-fab6-4c7a-9cd0-177325f6e715",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Parent",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "58210e36-46cd-4a12-934c-c97e96ed4160",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Completeness",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "8696b76a-1f0b-42a4-8279-934399c0207f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "EmployeesNumber",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "13bbd624-a13b-4bc2-b05c-fff21e9f7b92",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "City",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "9f5af167-9ab8-4c83-99db-7503df0eb650",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AddressType",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "27a77271-50e0-436f-a559-38ce3f8f7f37",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AccountLogo",
+        "DataTypeValueUId": "b039feb0-ee7c-4884-8aa6-d6d45d84316f"
+      },
+      {
+        "ColumnUId": "2ce4d59d-2ae4-4840-b4a7-33eee33fdb60",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "GPSE",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "f1f01f71-ddef-48bb-bc88-0fd2f3526ad9",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "GPSN",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "7c81a01e-f59b-47df-830c-8e830f1bf889",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "8f532bba-53fb-4f56-babd-38402cb57b2a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Region",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "2a7c00bd-0519-4742-b905-d8ce5f1b70ca",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Country",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "d7da954f-d0d8-4eca-a2b4-7d4f7121f6b4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Industry",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "9411651f-b785-4920-a542-e8ac11d2cf8d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AdditionalPhone",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e36ae687-347d-4bf7-b260-90129862e357",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AlternativeName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "dedb8f3b-4cb0-46ec-99e8-483ab92e10bb",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Ownership",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "40bf89ca-5927-47a6-b3fe-8955deb5f3ce",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Fax",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "0136fb47-c018-4b7f-8ed3-0eb6bd686b20",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Notes",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "8cfabb54-64ca-413d-a4e0-81ce9d2f0c8f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Address",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "0039b8f7-f5cf-44c9-8828-4b9cb2fd6634",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "AccountCategory",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "60cc5643-4ee2-4adf-b76b-06000ad0b067",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Code",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

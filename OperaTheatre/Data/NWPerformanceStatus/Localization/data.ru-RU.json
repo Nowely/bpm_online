@@ -1,0 +1,61 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "75f37b37-3135-4f9b-a971-2602c81d1045"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Данная программа отменена"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Отменено"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "694f0256-c0ce-4f72-a3a2-ecb3ae956998"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Данная программа успешно завершена"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Завершено"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "73cd01f5-2053-4005-baea-ef2e6644ee50"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Успешно запланирована"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Запланирован"
+        }
+      ]
+    }
+  ]
+}

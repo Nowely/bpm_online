@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.a4b11c18-9e35-4bfe-ba14-6a62a3d8b1f1.Caption" Value="EnrichmentDefaultIcon" />
+			<Item Name="Images.cd6fb42c-38cc-49a3-8395-f28de0d676b2.Caption" Value="EnrichedDefaultIcon" />
+			<Item Name="LocalizableStrings.CompletenessCaption.Caption" Value="CompletenessCaption" />
+			<Item Name="LocalizableStrings.CompletenessCaption.Value" Value="Slutförande av profil" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Hur komplett profilen är i procent. Klicka på indikatorn för att visa vilka data du behöver för att göra profilen komplett." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Profil komplett" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonCaption.Caption" Value="EnrichedDefaultButtonCaption" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonCaption.Value" Value="Nya data hittades ({0})" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonHint.Caption" Value="EnrichedDefaultButtonHint" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonHint.Value" Value="Visa nya data för kontoprofilberikning" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonCaption.Caption" Value="EnrichmentDefaultButtonCaption" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonCaption.Value" Value="Berika data" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonHint.Caption" Value="EnrichmentDefaultButtonHint" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonHint.Value" Value="Sök nya data för kontoberikning" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Flöde" />
+			<Item Name="LocalizableStrings.FillAccountQuestion.Value" Value="Minst en socialt nätverk-profil måste anges för kontot får att man ska kunna köra denna åtgärd." />
+			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Uppdatera med sociala nätverk-data" />
+			<Item Name="LocalizableStrings.OpenAccountCardQuestion.Value" Value="Minst en socialt nätverk-profil måste anges för kontot får att man ska kunna köra denna åtgärd" />
+			<Item Name="LocalizableStrings.RightsErrorMessage.Caption" Value="RightsErrorMessage" />
+			<Item Name="LocalizableStrings.RightsErrorMessage.Value" Value="Otillräckliga rättigheter att utföra denna åtgärd. Kontakta din systemadministratör." />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Följ flödet" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Du följer nu flödet: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Tidslinje" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Sluta följa flödet" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Du har slutat följa flödet: {0}" />
+		</Items>
+	</Group>
+</Resources>

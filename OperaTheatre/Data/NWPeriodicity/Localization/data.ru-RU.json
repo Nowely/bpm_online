@@ -1,0 +1,61 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "d8a9f3b5-48bc-4776-b293-4fbc4de1346c"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Каждые 168 часов или 10,080 минут"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Еженедельно"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "646a3709-71ad-49bb-bb47-93d27338e226"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Каждые 24 часа 1,440 минут"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Ежедневно"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "9615d6f8-6fc9-4188-87c0-c5492f3ef1ca"
+        },
+        {
+          "SchemaColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+          "ColumnName": "Description",
+          "Value": "Приблизительно каждые 30 дней или 720 часов или 43,200 минут"
+        },
+        {
+          "SchemaColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+          "ColumnName": "Name",
+          "Value": "Ежемесячно"
+        }
+      ]
+    }
+  ]
+}

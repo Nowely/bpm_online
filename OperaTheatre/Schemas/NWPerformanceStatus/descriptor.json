@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "70356b8d-f8c9-4b39-ad92-383a3128b33b",
+    "Name": "NWPerformanceStatus",
+    "ModifiedOnUtc": "\/Date(1565166930000)\/",
+    "Parent": {
+      "UId": "2aecdb97-990e-4c17-96f4-240ca6531c84",
+      "Name": "Lookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Lookup",
+    "DependsOn": []
+  }
+}

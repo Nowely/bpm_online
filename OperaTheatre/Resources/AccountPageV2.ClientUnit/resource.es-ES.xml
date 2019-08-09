@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="es-ES">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.a4b11c18-9e35-4bfe-ba14-6a62a3d8b1f1.Caption" Value="EnrichmentDefaultIcon" />
+			<Item Name="Images.cd6fb42c-38cc-49a3-8395-f28de0d676b2.Caption" Value="EnrichedDefaultIcon" />
+			<Item Name="LocalizableStrings.CompletenessCaption.Caption" Value="CompletenessCaption" />
+			<Item Name="LocalizableStrings.CompletenessCaption.Value" Value="Completitud de perfil" />
+			<Item Name="LocalizableStrings.CompletenessHint.Value" Value="Percentage of profile completion. Click on the indicator to view which data you need to complete the profile." />
+			<Item Name="LocalizableStrings.CompletenessLabel.Value" Value="Ingeniero de servicio Editar página" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonCaption.Caption" Value="EnrichedDefaultButtonCaption" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonCaption.Value" Value="Nuevos datos encontrados ({0})" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonHint.Caption" Value="EnrichedDefaultButtonHint" />
+			<Item Name="LocalizableStrings.EnrichedDefaultButtonHint.Value" Value="Mostrar nuevos datos para el enriquecimiento de perfil de la cuenta" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonCaption.Caption" Value="EnrichmentDefaultButtonCaption" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonCaption.Value" Value="Enriquecer datos" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonHint.Caption" Value="EnrichmentDefaultButtonHint" />
+			<Item Name="LocalizableStrings.EnrichmentDefaultButtonHint.Value" Value="Buscar nuevos datos para el enriquecimiento de cuenta" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />
+			<Item Name="LocalizableStrings.FillAccountQuestion.Value" Value="Al menos uno de los perfiles de redes sociales de la cuenta debe estar especificado para realizar esta acción." />
+			<Item Name="LocalizableStrings.FillAccountWithSocialNetworksDataActionCaption.Value" Value="Enriquecer con datos de redes sociales" />
+			<Item Name="LocalizableStrings.NotesAndFilesTabCaption.Value" Value="Attachments and notes" />
+			<Item Name="LocalizableStrings.NotesGroupCaption.Value" Value="Notes" />
+			<Item Name="LocalizableStrings.OpenAccountCardQuestion.Value" Value="Al menos uno de los perfiles de redes sociales de la cuenta debe estar especificado para realizar esta acción" />
+			<Item Name="LocalizableStrings.RightsErrorMessage.Caption" Value="RightsErrorMessage" />
+			<Item Name="LocalizableStrings.RightsErrorMessage.Value" Value="Permisos insuficientes para realizar esta acción. Póngase en contacto con su administrador de sistemas." />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Sigue el feed" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Ahora estás siguiendo el feed: {0}" />
+			<Item Name="LocalizableStrings.TabVisaCaption.Value" Value="Approvals" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Línea de tiempo" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Dejar de seguir el feed" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Has dejado de seguir el feed: {0}" />
+		</Items>
+	</Group>
+</Resources>

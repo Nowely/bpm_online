@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8c173ab6-3237-4f03-a632-c58412845c4e",
+    "Name": "NWConcertProgrammsFolder",
+    "ModifiedOnUtc": "\/Date(1565162424000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Концертные программы",
+    "DependsOn": []
+  }
+}

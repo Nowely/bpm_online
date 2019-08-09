@@ -1,0 +1,70 @@
+﻿{
+  "Descriptor": {
+    "UId": "28a97b40-73bf-4a22-9ef3-951c5622533b",
+    "Name": "NWConcertProgramms1",
+    "ModifiedOnUtc": "\/Date(1565339386000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "318d3ddd-18ca-4ad7-89ed-cc9813ac171d",
+      "Name": "NWConcertProgramms"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "02fb86bb-a23e-4545-9d41-a53ffa62a1d1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWCode",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "03db07f5-946f-4767-be51-0c49f5429a8d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWPeriodicity",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "c4b47a08-4547-4369-94dc-cd740ddc5930",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWCollective",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "c33f0c58-4639-4caa-a0a6-c7722849b85f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWName",
+        "DataTypeValueUId": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2"
+      },
+      {
+        "ColumnUId": "99c89621-1b3b-46d3-8660-2bcca2e92956",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWComment",
+        "DataTypeValueUId": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2"
+      },
+      {
+        "ColumnUId": "53b2ca86-e21a-4c49-a3f9-432b539214cc",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWisActive",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "625b1df0-d8bd-41ef-8545-9218084c728a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "NWDescription",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+= MetaData.Schema.UId "c4180599-d07f-4496-b839-3fed749eb3b3"
+= MetaData.Schema.A2 "NWPerformance"
+= MetaData.Schema.A5 "40a9cb00-5523-4caf-8c12-066d43ec991f"
+= MetaData.Schema.B6 "60708b38-cbeb-467b-add1-263178fa8a01"
+= MetaData.Schema.B8 "7.14.2.881"
+= MetaData.Schema.EG1.UId "a0ad465a-852e-4dfc-a3e7-f652f8181588"
+= MetaData.Schema.EG1.A2 "NWPerformanceEventsProcess"
+= MetaData.Schema.EG1.A5 "40a9cb00-5523-4caf-8c12-066d43ec991f"
++ MetaData.Schema.EG1.B8 "7.14.2.881"
+= MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D2 {
+  "UId": "ed21c88c-e5ad-49f8-8544-ed2b0ee62920",
+  "A2": "NWConcertProgram",
+  "A3": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A4": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A5": "40a9cb00-5523-4caf-8c12-066d43ec991f",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "318d3ddd-18ca-4ad7-89ed-cc9813ac171d",
+  "E6": true,
+  "E17": "NWConcertProgramId",
+  "E18": "NWConcertProgramNWName"
+}
++ MetaData.Schema.D2 {
+  "UId": "0b3f2bb3-4c27-41a8-b808-c6e68f8360a1",
+  "A2": "NWPerformanceStates",
+  "A3": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A4": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A5": "40a9cb00-5523-4caf-8c12-066d43ec991f",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "70356b8d-f8c9-4b39-ad92-383a3128b33b",
+  "E6": true,
+  "E17": "NWPerformanceStatesId",
+  "E18": "NWPerformanceStatesName"
+}
++ MetaData.Schema.D2 {
+  "UId": "7aa78c25-d2a0-45f2-a5e2-841cdba8a55c",
+  "A2": "NWDateOfPerformance",
+  "A3": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A4": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A5": "40a9cb00-5523-4caf-8c12-066d43ec991f",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
+}
++ MetaData.Schema.D2 {
+  "UId": "a29c5dff-63a8-42b8-b082-5bd7cf65a2c7",
+  "A2": "NWResponsible",
+  "A3": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A4": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A5": "40a9cb00-5523-4caf-8c12-066d43ec991f",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "NWResponsibleId",
+  "E18": "NWResponsibleName"
+}
++ MetaData.Schema.D2 {
+  "UId": "0780f4ef-d885-4ae6-9fe8-1ee2858f4857",
+  "A2": "NWNumberOfTickets",
+  "A3": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A4": "c4180599-d07f-4496-b839-3fed749eb3b3",
+  "A5": "40a9cb00-5523-4caf-8c12-066d43ec991f",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","ed21c88c-e5ad-49f8-8544-ed2b0ee62920","0b3f2bb3-4c27-41a8-b808-c6e68f8360a1","7aa78c25-d2a0-45f2-a5e2-841cdba8a55c","a29c5dff-63a8-42b8-b082-5bd7cf65a2c7","0780f4ef-d885-4ae6-9fe8-1ee2858f4857"]
+= MetaData.Schema.D20.A2 "NWPerformanceEvents"
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

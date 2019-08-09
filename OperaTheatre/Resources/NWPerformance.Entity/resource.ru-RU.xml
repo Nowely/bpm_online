@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Выступление (деталь)" />
+			<Item Name="Columns.NWConcertProgram.Caption" Value="Концертная программа" />
+			<Item Name="Columns.NWDateOfPerformance.Caption" Value="Дата выступления" />
+			<Item Name="Columns.NWNumberOfTickets.Caption" Value="Число билетов" />
+			<Item Name="Columns.NWPerformanceStates.Caption" Value="Состояния выступления" />
+			<Item Name="Columns.NWResponsible.Caption" Value="Ответственный" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

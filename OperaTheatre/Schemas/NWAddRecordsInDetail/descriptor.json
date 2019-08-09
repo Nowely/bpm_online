@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d0b510f2-00fb-4ed6-8b5c-e75f4efeca3e",
+    "Name": "NWAddRecordsInDetail",
+    "ModifiedOnUtc": "\/Date(1565337449000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Добавление записей в деталь для нового объекта",
+    "DependsOn": []
+  }
+}

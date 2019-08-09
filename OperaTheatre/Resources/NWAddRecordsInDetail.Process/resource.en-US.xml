@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow6.Caption" Value="Ежедневно" />
+			<Item Name="BaseElements.ConditionalSequenceFlow7.Caption" Value="Еженедельно" />
+			<Item Name="BaseElements.ConditionalSequenceFlow8.Caption" Value="Ежемесячно" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Caption" Value="Привязка" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntityId.Caption" Value="Object" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntityId.DisplayValue" Value="[#Сигнал о добавлении записи.Уникальный идентификатор записи#]" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntitySchemaId.Caption" Value="Object schema" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntitySchemaId.DisplayValue" Value="Концертные программы" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Чтение периодичности" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ScriptTask1.Caption" Value="Заполнение детальки" />
+			<Item Name="BaseElements.ScriptTask2.Caption" Value="Заполнение детальки" />
+			<Item Name="BaseElements.ScriptTask3.Caption" Value="Заполнение детальки" />
+			<Item Name="BaseElements.ScriptTask4.Caption" Value="Обновление реестра детальки" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Сигнал о добавлении записи" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="Caption" Value="Добавление записей в деталь для нового объекта" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.recordId.Caption" Value="recordId" />
+		</Items>
+	</Group>
+</Resources>

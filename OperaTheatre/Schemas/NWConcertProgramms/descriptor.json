@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "318d3ddd-18ca-4ad7-89ed-cc9813ac171d",
+    "Name": "NWConcertProgramms",
+    "ModifiedOnUtc": "\/Date(1565182294000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Концертные программы",
+    "DependsOn": []
+  }
+}
